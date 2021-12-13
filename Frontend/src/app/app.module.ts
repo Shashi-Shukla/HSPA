@@ -16,7 +16,8 @@ const appRoutes: Routes = [
   { path: 'add-property', component: AddPropertyComponent },
   { path: '', component: PropertyListComponent },
   { path: 'rent-property', component: PropertyListComponent },
-  { path: 'property-details/:id', component: PropertyDetailsComponent }
+  { path: 'property-details/:id', component: PropertyDetailsComponent },
+  { path: '**', component: PropertyListComponent },
 ];
 
 @NgModule({
@@ -32,7 +33,7 @@ const appRoutes: Routes = [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
   ],
   providers: [
     HousingService

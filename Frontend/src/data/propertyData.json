@@ -1,32 +1,50 @@
 [
   {
     "Id":1,
-    "Name":"Birla House",
+    "SellRent":1,
+    "Name":"BI House",
     "Type":"House",
-    "Price":12000
+    "Price":12000,
+    "Image":"house_3"
   },
   {
     "Id":2,
-    "Name":"Mannat House",
+    "SellRent":1,
+    "Name":"SA House",
     "Type":"Villa",
-    "Price":15000
+    "Price":15000,
+    "Image":"house_4"
   },
   {
     "Id":3,
-    "Name":"TATA House",
+    "SellRent":1,
+    "Name":"TA House",
     "Type":"House",
-    "Price":18000
+    "Price":18000,
+    "Image":"house_5"
   },
   {
     "Id":4,
-    "Name":"Adani House",
+    "SellRent":2,
+    "Name":"MA House",
     "Type":"Villa",
-    "Price":12000
+    "Price":12000,
+    "Image":"house_6"
   },
   {
     "Id":5,
-    "Name":"Shukla House",
+    "SellRent":2,
+    "Name":"AD House",
+    "Type":"Villa",
+    "Price":12000,
+    "Image":"house_7"
+  },
+  {
+    "Id":6,
+    "SellRent":1,
+    "Name":"SK House",
     "Type":"Farm House",
     "Price":5000
   }
+
 ]

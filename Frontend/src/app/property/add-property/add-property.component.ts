@@ -6,6 +6,7 @@ import { Router } from '@angular/router';
   templateUrl: './add-property.component.html',
   styleUrls: ['./add-property.component.css']
 })
+
 export class AddPropertyComponent implements OnInit {
 
   constructor(private router : Router) { }
@@ -16,5 +17,11 @@ export class AddPropertyComponent implements OnInit {
   onBack()
   {
     this.router.navigate(['/']);
+  }
+
+  onSubmit()
+  {
+    console.log('Form Submitted !');
+    console.log();
   }
 }
